@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins&family=Quicksand:wght@300&family=Urbanist:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #414141;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #fff;
+  margin: 50px auto;
+  border-radius: 4px;
+  padding: 15px;
+}
+.container h1 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+#qus {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-top: 8px;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.1s;
+}
+.btn:hover:not([disabled]) {
+  background-color: black;
+  color: #fff;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+#nextBtn {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  padding: 8px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  color: #fff;
+  background-color: rgb(30, 30, 30);
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.1s;
+}
+#nextBtn:hover {
+  box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.176);
+  background-color: black;
+}
+.correct {
+  background-color: rgba(55, 235, 70, 0.726);
+}
+.incorrect {
+  background-color: rgba(248, 68, 58, 0.705);
+}
